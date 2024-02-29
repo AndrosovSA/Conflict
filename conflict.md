@@ -8,3 +8,9 @@ git remote add origin URL_GitHub
 git branch -M main
 git push -u origin main
 ```
+### Запрос на внесение изменений (pull reqaest)
+1. Копируем репозиторий через *__Fork__*
+2. Переносим репозиторий к себе на компьютер через команду *__clone__*
+3. Создаем новую ветку
+4. Отправляем на GitHub (для переноса на новую ветку используем команду *__git push --set-upstream origin <name_branch>__*)
+5. Отправляем запрос через кнопку *__Compare & pull reqaest__*
